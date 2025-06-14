@@ -14,7 +14,7 @@ default_batch_volume = 50.0
 default_test_volume = 500.0
 
 test_volume_ml = st.number_input("Volume used to test 1 drop (mL)", min_value=1.0, value=default_batch_volume)
-batch_volume_ml = st.number_input("batch volume", min_value=1.0, value=default_test_volume)
+batch_volume_ml = st.number_input("batch volume(mL)", min_value=1.0, value=default_test_volume)
 
 minerals = ["Magnesium (Mg)", "Chloride (Cl)", "Sodium (Na)", "KHCO₃ (KH)"]
 
