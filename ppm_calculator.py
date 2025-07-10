@@ -20,10 +20,10 @@ minerals = ["Magnesium (Mg)", "Chloride (Cl)", "Sodium (Na)", "KHCO₃ (KH)"]
 
 # Preset ppm defaults for each mineral (you can customize)
 default_measured_ppm = {
-    "Magnesium (Mg)": 90.0,
-    "Chloride (Cl)": 195.0,
-    "Sodium (Na)": 66.0,
-    "KHCO₃ (KH)": 75.0
+    "Magnesium (Mg)": 170.0,
+    "Chloride (Cl)": 260.0,
+    "Sodium (Na)":70.0,
+    "KHCO₃ (KH)": 100.0
 }
 
 default_target_ppm = {
