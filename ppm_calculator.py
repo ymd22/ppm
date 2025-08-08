@@ -20,15 +20,15 @@ minerals = ["Magnesium (Mg)", "Chloride (Cl)", "Sodium (Na)", "KHCO₃ (KH)"]
 
 # Preset ppm defaults for each mineral (you can customize)
 default_measured_ppm = {
-    "Magnesium (Mg)": 170.0,
-    "Chloride (Cl)": 260.0,
-    "Sodium (Na)":70.0,
-    "KHCO₃ (KH)": 100.0
+    "Magnesium (Mg)": 145.0,
+    "Calcium (Ca)": 245.0,
+    "Sodium (Na)":80.0,
+    "KHCO₃ (KH)": 105.0
 }
 
 default_target_ppm = {
     "Magnesium (Mg)": 35.0,
-    "Chloride (Cl)": 35.0,
+    "Calcium (Ca)": 35.0,
     "Sodium (Na)": 10.0,
     "KHCO₃ (KH)": 10.0
 }
@@ -63,3 +63,4 @@ if st.button("Calculate Drops Needed"):
             test_volume_ml
         )
         st.write(f"{mineral}: {drops} drops")
+
